@@ -1,0 +1,179 @@
+/*PÁGINA:  ONDE ESTAMOS */
+
+/*Deixa toda a página centralizada. Sem bordas brancas ao lado.*/
+*{
+	padding:0;
+	margin:0 auto;
+}
+
+body
+{
+    font-family:sans-serif:
+}    
+    
+header
+{
+    height: 110px;
+    border-bottom:1px solid rgb(204, 204, 204);
+    padding-bottom:45px ;
+}
+
+.logo
+{
+    margin-top:20px;
+}
+
+.logoe_nome
+{
+    float:left;
+    font-family: 'Nunito', sans-serif;
+    font-size:40px;
+}
+
+}
+
+#wrapper{
+    height:620px;
+    width: auto;
+    background-image: url(../img/wallpaper_ondeestamos.jpg);
+    background-size:1400px 1350px;
+}
+
+.ondeestamos{
+    text-align: center;
+    padding-top: 25px;
+    font-size:50px ;
+    font-family:Trebuchet MS;
+}
+
+.mapa{
+    padding-top:50px;
+    
+    
+}
+
+
+.barra_superior{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Trebuchet MS;
+}
+
+/* links de navegacao da pagina */
+nav{
+    color: rgb(187, 187, 187); /* muda a cor da fonte? */
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a{
+    color: rgb(187, 187, 187); 
+    text-decoration: none; /*tira o underline do link */
+    font-family: Trebuchet MS;
+}
+
+nav a.btn_destaque{
+    margin-left: 25px;
+}
+
+.btn_destaque{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
+    border-radius: 3px; /* arredonda as bordas */
+    
+    font-size: 12px;
+    text-decoration: none; 
+    
+}
+
+/*Esta é a parte em que fica os contatos
+e o endereço da ótica.*/
+.informacoes{
+    
+    justify-content:center; /*Alinha a parte de informações ao centro.*/
+    width:640px; /*Tamanho definido para que fique ao centro*/
+   
+}
+
+.endereco_contatos
+{
+    float:right;
+    margin-top:50px;
+    margin-bottom:60px;
+    margin-right:50px;
+    font-family:Trebuchet MS;
+}
+
+/*Parte do rodapé*/
+
+footer{
+    width:100%;
+    margin-top:100px;
+}
+
+/*Esta classe foi criada para colocar todas as informações do footer em uma só para que pudesse
+ser alinhado ao meio*/
+.footer2
+{
+    margin: 0 auto;
+    width:945px;
+    margin-left:px;
+}
+
+.footer_informacoes
+{
+    
+    width:285px;
+    height:200px;
+    font-family:Trebuchet MS;
+    margin-left: 30px;
+    float:left;
+    text-decoration: none;
+}
+
+.footer_informacoes a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer_informacoes a:hover
+{
+    text-decoration: underline;
+}
+
+.TermosPolitica
+{
+    margin-top: 50px;
+    float: left;
+    background-color:red;
+    height: 100px;
+    text-align: center;
+    width:100%;
+    color: white;
+    font-family:Trebuchet MS;
+    
+}
+
+.TermosPolitica p
+{
+    padding-top:40px;
+}
+
+.TermosPolitica a
+{
+    color:white;
+}
+
+
