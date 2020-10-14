@@ -8,33 +8,34 @@
 
 body
 {
-    font-family:sans-serif:
+    font-family:sans-serif;
 }
 /* Barra roxa do Header*/
 .barraRoxa{
-    background-color: #0F0462;
-    height: 120px;
+    background-image: url(../img/Header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 167px;
 }
 
 
 .container{
-    
     width: 100%;
-    margin: 0 auto;
+    
     font-family: Trebuchet MS;
-   
+}
 
+.container nav{
+    margin-right: 15%;
 }
 
  
 /* Logo canto superior esquerdo*/
 .logo_superior_esquerdo
 {
-    font-family: 'Nunito', sans-serif;
-    font-size:40px;
-    position: absolute; 
-    top: 0px;
-    left: 0px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 15%; 
 }
 
 
@@ -388,7 +389,7 @@ nav a.btn_destaque{
     font-size: 20pt;
     text-decoration: none;
 }
-}
+
 
 
 
