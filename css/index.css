@@ -10,8 +10,10 @@ body
 {
     font-family:sans-serif;
 }
-/* Barra roxa do Header*/
-.barraRoxa{
+
+header{
+    width: 100vw;
+
     background-image: url(../img/Header.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -27,6 +29,7 @@ body
 
 .container nav{
     margin-right: 15%;
+    font-size: 1.5em;
 }
 
  
@@ -70,41 +73,52 @@ nav a.btn_destaque{
     padding: 12px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
     border-radius: 3px; /* arredonda as bordas */
     
-    font-size: 12px;
+    font-size: 1em;
     text-decoration: none; 
     
 }
 
 /* Logo do main*/
 .logoe_nome_main{
-    font-family: 'Nunito', sans-serif;
-    font-size:40px;
-    position: absolute; 
-    top: 250px;
-    left: 50px;
+    float: left;
+    margin-left: 7%;
 }
+
 /* Sobre a empresa */
 .titulosobre{
-    position: absolute;
-    top: 250px;
-    left: 400px;
-    text-align: justify;
-    font-size: 25pt;
-    font-family: monospace;
-
+    font-size: 2em;
 }
 
 .conteudosobre{
-    position: absolute;
-    top: 300px;
-    left: 400px;
-    text-align: justify;
-    font-family: monospace;
-    max-width: 600px;
-    font-size: 11pt;
-
-
+    float: left;
+    max-width: 50%;
+    margin-left: 5%;
+    font-size: 1.09em;
 }
+
+.textosobreempresa{
+    text-align: justify;
+    float: right;
+    margin-top: 3%;
+}
+
+.sobreaempresa1{
+    width: 100vw;
+    
+    margin-top: 5%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreaempresa2{
+    
+    width: 95%;
+    
+}
+
 
 /* Aqui começam as imagens MISSÃO, VALORES E VISÃO */
 
