@@ -100,6 +100,7 @@ nav a.btn_destaque{
     text-align: justify;
     float: right;
     margin-top: 3%;
+    font-family: 'Roboto' sans-serif;
 }
 
 .sobreaempresa1{
@@ -122,105 +123,113 @@ nav a.btn_destaque{
 
 /* Aqui começam as imagens MISSÃO, VALORES E VISÃO */
 
-/* COMEÇO MISSÃO */
-.imgMissao{
+.valorMissaoVisao{
+    height: 800px;
+    width: 100vw;
 
-    position: absolute; 
-    top: 600px;
-    left: 150px;
+    margin-top: 5%;
 
+    font-family: Arial;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
+.missao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 1.75; 
+
+    width: auto;
+    height: 800px;
+  
+}   
+
+/* COMEÇO MISSÃO */
 
  .tituloMissao{
-    position: absolute;
-    top: 780px;
-    left: 155px;
+    margin-bottom: 40px;
     text-align: justify;
-    font-family: monospace;
     max-width: 250px;
     font-size: 30pt;
 
  }
 
  .conteudoMissao{
-
-    position: absolute;
-    top: 820px;
-    left: 50px;
+    height: 100%;
     text-align: justify;
-    font-family: monospace;
     max-width: 400px;
-    font-size: 13pt;
+    font-size: 1.2em;
  } 
  /* FIM MISSÃO */
 
 
 
 /* COMEÇO VALORES */
- .imgStar{
+.valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    position: absolute; 
-    top: 600px;
-    left: 630px;
 
+    text-align: center;
+    width: auto;
+    height: 800px;
 }
 
 
+
  .tituloStar{
-    position: absolute;
-    top: 780px;
-    left: 630px;
+    margin-bottom: 50px;
     text-align: justify;
-    font-family: monospace;
     max-width: 250px;
     font-size: 30pt;
+
 
  }
 
  .conteudoStar{
-
-    position: absolute;
-    top: 820px;
-    left: 500px;
+    height: 100%;
     text-align: justify;
-    font-family: monospace;
+    line-height: 1.75;
+    
     max-width: 400px;
-    font-size: 13pt;
+    font-size: 1.2em;
  }
 /* FIM VALORES */
 
 
 /* COMEÇO VISÃO */
- .imgSearch{
 
-    position: absolute; 
-    top: 600px;
-    left: 1050px;
+.visao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    width: auto;
+    height: 800px;
 }
 
-
  .tituloSearch{
-    position: absolute;
-    top: 780px;
-    left: 1090px;
     text-align: justify;
-    font-family: monospace;
     max-width: 250px;
     font-size: 30pt;
-
+    margin-bottom: 50px;
  }
 
  .conteudoSearch{
-
-    position: absolute;
-    top: 820px;
-    left: 950px;
     text-align: justify;
-    font-family: monospace;
+    line-height: 1.75;
     max-width: 400px;
-    font-size: 13pt;
+    font-size: 1.2em;
+    height: 100%;
  }
  /* FIM VISÃO */
 
@@ -229,14 +238,14 @@ nav a.btn_destaque{
     background-color: #6A5ACD;
     height:300px;
     width: 1349px;
-    position: absolute;
+    
     top: 1150px;
      
 }
 
 .equipe{
     color: white;
-    position: absolute;
+    
     top: 20px;
     left: 630px;
     font-size: 30pt;
@@ -245,7 +254,7 @@ nav a.btn_destaque{
 }
 .nomes{
     color: white;
-    position: absolute;
+    
     top: 80px;
     left: 540px;
     font-size: 15pt;
@@ -253,13 +262,13 @@ nav a.btn_destaque{
 }
 /*Foto borrada*/
 .fotoBorrada{
-    position: absolute;
+    
     top: 1450px;
 
 }
 /* "PET FELIZ" */
 .textonafoto{
-    position: absolute;
+    
     top: 1590px;
     left: 585px;
     color: white;
@@ -273,12 +282,12 @@ nav a.btn_destaque{
     background-color: #FFF81A;
     height:300px;
     width: 1349px;
-    position: absolute;
+    
     top: 1850px;
 }
 /*Logo do Pet Feliz*/
 .logoPetFeliz{
-    position: absolute;
+    
     top: 25px;
     left: 25px;
     
@@ -286,7 +295,7 @@ nav a.btn_destaque{
 
 /*Texto na barra amarela*/
 .textoBarraAmarela{
-    position: absolute;
+    
     top: 1950px;
     left: 360px;
     font-size: 15pt;
@@ -296,13 +305,13 @@ nav a.btn_destaque{
 
 /*Foto e texto do Dog Walker*/
 .fotoDogWalker{
-    position: absolute;
+    
     top: 2400px;
     left: 300px; 
 }
 
 .textoDogWalker{
-    position: absolute;
+    
     top: 2200px;
     left: 500px;
     font-size: 18pt;
@@ -311,7 +320,7 @@ nav a.btn_destaque{
 }
 /*Foto e texto Android*/
 .textoAndroid{
-    position: absolute;
+    
     top: 2750px;
     left: 440px;
     font-size: 30pt;
@@ -319,21 +328,21 @@ nav a.btn_destaque{
 }
 
 .fotoAndroid{
-    position: absolute;
+    
     top: 2700px;
     left: 700px;
 }
 
 /*Aqui começa o FOOTER*/
 .fotoFooter{
-    position: absolute;
+    
     top: 3000px;
     bottom: 0px;
 }
 
 /*"Contatos"*/
 .textoContato{
-    position: absolute;
+    
     top: 3150px;
     left: 250px;
     color: white;
@@ -343,7 +352,7 @@ nav a.btn_destaque{
 /*Linha do meio FOOTER*/
 .linhaFooter{
     background-color: white;
-    position: absolute;
+    
     top: 3150px;
     left: 650px;
     width: 2px;
@@ -353,7 +362,7 @@ nav a.btn_destaque{
 
 /*Coloquei o Endereço de E-mail em uma DIV separada para centralizar-lo*/
 .centralizarEmail{
-    position: absolute;
+    
     top: 3300px;
     left: 150px;
     color: white;
@@ -362,25 +371,25 @@ nav a.btn_destaque{
 
 /*Barra azul*/
 .redesSociais{
-    position: absolute;
+    
     top: 3400px;
     left: 150px;
 }
 /*Facebook*/
 .linkFacebook{
-    position: absolute;
+    
     top:  0px;
     left:  20px;
  }
 /*Twitter*/
 .linkTwitter{
-    position: absolute;
+    
     top:  0px;
     left: 120px;
  }
  /*Instagram*/
 .linkInstagram{
-    position: absolute;
+    
     top:  0px;
     left: 220px;
      
@@ -388,7 +397,7 @@ nav a.btn_destaque{
 
 /*Cachorrinho do Footer*/
 .fotoCachorroFooter{
-    position: absolute;
+    
     top: 3150px;
     right: 220px;
 
@@ -396,7 +405,7 @@ nav a.btn_destaque{
 
 /*Termos de Uso e Política de Privacidade*/
 .TermosPolitica{
-    position: absolute;
+    
     top: 3390px;
     right: 120px;
     color: white;
