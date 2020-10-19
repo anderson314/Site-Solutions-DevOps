@@ -236,45 +236,46 @@ nav a.btn_destaque{
  /*Barra azul*/
 .barraAzul{
     background-color: #6A5ACD;
-    height:300px;
-    width: 1349px;
-    
-    top: 1150px;
-     
+    height:auto;
+    width: 100vw;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .equipe{
+    margin-bottom: 25px;
     color: white;
-    
-    top: 20px;
-    left: 630px;
     font-size: 30pt;
-    font-family: monospace;
-
 }
 .nomes{
     color: white;
-    
-    top: 80px;
-    left: 540px;
     font-size: 15pt;
-    font-family: monospace
 }
-/*Foto borrada*/
-.fotoBorrada{
-    
-    top: 1450px;
 
+
+/*Foto borrada*/
+
+.imagemCaoHumano{
+    display: inline-block;
+    position: relative;
 }
+
+.imagemCaoHumano img{
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+}
+
 /* "PET FELIZ" */
 .textonafoto{
-    
-    top: 1590px;
-    left: 585px;
-    color: white;
-    font-family: monospace;
+    position: relative;
+    color:white;
     font-size: 35pt;
-    
+
+    text-align: center;
+    width: 100vw;
+    margin-top: 160px;
 }
 
 /*Barra amarela*/
