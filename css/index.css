@@ -255,9 +255,11 @@ nav a.btn_destaque{
 
 
 /*Foto borrada*/
-
 .imagemCaoHumano{
-    display: inline-block;
+    height: 400px;
+}
+
+.imagemCaoHumano div{
     position: relative;
 }
 
@@ -269,39 +271,45 @@ nav a.btn_destaque{
 
 /* "PET FELIZ" */
 .textonafoto{
-    position: relative;
+    position: absolute;
     color:white;
     font-size: 35pt;
 
     text-align: center;
     width: 100vw;
-    margin-top: 160px;
+    padding-top: 170px;
 }
 
 /*Barra amarela*/
 .barraAmarela{
     background-color: #FFF81A;
     height:300px;
-    width: 1349px;
-    
-    top: 1850px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.caixaInterna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Logo do Pet Feliz*/
 .logoPetFeliz{
-    
-    top: 25px;
-    left: 25px;
-    
+     
 }
 
 /*Texto na barra amarela*/
 .textoBarraAmarela{
-    
-    top: 1950px;
-    left: 360px;
+    margin-left: 25px;
     font-size: 15pt;
     font-family: arial;
-
+    line-height: 1.25;
 }
 
 /*Foto e texto do Dog Walker*/
