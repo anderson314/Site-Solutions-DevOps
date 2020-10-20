@@ -343,19 +343,30 @@ nav a.btn_destaque{
     font-family: arial;
 }
 
+footer{
+    background-image: url(../img/footer.png);
+    background-size: 100vw 500px;
+    height: 500px;
+    width: 100vw;
+}
+
+.caixaInternaFooter{
+    padding-top: 100px;
+
+    height:400px;
+    width: 95%;
+    background-color: crimson;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 /*Aqui começa o FOOTER*/
-.fotoFooter{
-    
-    top: 3000px;
-    bottom: 0px;
-}
 
 /*"Contatos"*/
 .textoContato{
-    
-    top: 3150px;
-    left: 250px;
     color: white;
     font-size: 20pt;
 }
@@ -363,9 +374,6 @@ nav a.btn_destaque{
 /*Linha do meio FOOTER*/
 .linhaFooter{
     background-color: white;
-    
-    top: 3150px;
-    left: 650px;
     width: 2px;
     height: 300px;
 }
@@ -373,9 +381,6 @@ nav a.btn_destaque{
 
 /*Coloquei o Endereço de E-mail em uma DIV separada para centralizar-lo*/
 .centralizarEmail{
-    
-    top: 3300px;
-    left: 150px;
     color: white;
     font-size: 20pt;
 }
@@ -383,34 +388,24 @@ nav a.btn_destaque{
 /*Barra azul*/
 .redesSociais{
     
-    top: 3400px;
-    left: 150px;
 }
 /*Facebook*/
 .linkFacebook{
     
-    top:  0px;
-    left:  20px;
  }
 /*Twitter*/
 .linkTwitter{
     
-    top:  0px;
-    left: 120px;
  }
  /*Instagram*/
 .linkInstagram{
     
-    top:  0px;
-    left: 220px;
      
 }
 
 /*Cachorrinho do Footer*/
 .fotoCachorroFooter{
     
-    top: 3150px;
-    right: 220px;
 
 }
 
