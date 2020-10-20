@@ -299,11 +299,6 @@ nav a.btn_destaque{
     align-items: center;
 }
 
-/*Logo do Pet Feliz*/
-.logoPetFeliz{
-     
-}
-
 /*Texto na barra amarela*/
 .textoBarraAmarela{
     margin-left: 25px;
@@ -312,35 +307,42 @@ nav a.btn_destaque{
     line-height: 1.25;
 }
 
-/*Foto e texto do Dog Walker*/
-.fotoDogWalker{
-    
-    top: 2400px;
-    left: 300px; 
+
+.sobreProduto-disponivelAndroid{
+    width: 100vw;
+    margin-top: 90px;
 }
 
+.sobreProduto-caixaInterna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 700px;
+}
+
+
 .textoDogWalker{
-    
-    top: 2200px;
-    left: 500px;
+    text-align: center;
     font-size: 18pt;
     font-family: arial;
 
+    margin-bottom: 70px;
 }
+
+.fotoDogWalker{
+    margin-bottom: 180px;
+}
+
 /*Foto e texto Android*/
 .textoAndroid{
     
-    top: 2750px;
-    left: 440px;
+    text-align: center;
     font-size: 30pt;
     font-family: arial;
 }
 
-.fotoAndroid{
-    
-    top: 2700px;
-    left: 700px;
-}
 
 /*Aqui começa o FOOTER*/
 .fotoFooter{
