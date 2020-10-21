@@ -354,7 +354,7 @@ footer{
     padding-top: 100px;
 
     height:400px;
-    width: 95%;
+    
     background-color: crimson;
 
     display: flex;
@@ -366,6 +366,21 @@ footer{
 /*Aqui começa o FOOTER*/
 
 /*"Contatos"*/
+
+.contatos{
+    background-color: darkcyan;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    width: 500px;
+    height: 350px;
+}
+
 .textoContato{
     color: white;
     font-size: 20pt;
@@ -387,26 +402,24 @@ footer{
 
 /*Barra azul*/
 .redesSociais{
-    
-}
-/*Facebook*/
-.linkFacebook{
-    
- }
-/*Twitter*/
-.linkTwitter{
-    
- }
- /*Instagram*/
-.linkInstagram{
-    
-     
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 80px;
 }
 
-/*Cachorrinho do Footer*/
-.fotoCachorroFooter{
-    
+.navegacaoFooter{
+    background-color: cyan;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 500px;
+    height: 350px;
 }
 
 /*Termos de Uso e Política de Privacidade*/

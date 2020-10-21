@@ -18,7 +18,7 @@
 
 
         <!-- SESSÃO DE CABEÇALHO -->
-        <header> 
+        <header id="#header"> 
             <div class="barraRoxa">
                 <!--logo da empresa lado esquerdo do header-->
                 
@@ -235,13 +235,13 @@
                     <div class="contatos">
                         <!--Texto "Contatos" e "Email"-->
                         <div class="textoContato">
-                            Contatos<br> <br> <br> <br>
+                            Contatos<br> <br><br>
                             E-mail<br>
                         </div>
 
                         <!--DIV criada para o endereço de Email para centralizar ele no CSS-->
                         <div class="centralizarEmail">
-                            solutiondevops@contato.com
+                            solutionsdevops@contato.com
                         </div>
 
                         <div class="redesSociais">
@@ -272,21 +272,31 @@
                     <div class="linhaFooter">
                         <!--AQUI HÁ UMA LINHA EM CSS-->
                     </div>
-
-                    <!--Foto cachorro olhando-->        
-                    <div class="fotoCachorroFooter">
-                        <img alt="fotoCachorroFooter" title="Cachorro" src="img/cachorro_olhando.jpg" width="250px" height="200px" />
-                    </div>     
-                           
-                    <!--Termos e Política-->
-                    <div class="TermosPolitica">
-                        <p>
-                            Todos os direitos reservados &copy; 2020. <br> <a href="termosdeuso.html">Termos de uso </a>e <a href="politicadeprivacidade.html">Política de privacidade.</a>
-                        </p>
-                    </div>  
+                    
+                    <div class="navegacaoFooter">
+                        <!--Imagem da Empresa-->        
+                        <div class="imagemLogoFooter">
+                            <img alt="Solutions DevOps" title="Solutions DevOps" src="img/logoempresati.png" width="200px" height="150px" />
+                        </div>     
+                            
+                        <div class="linksNavegacao">
+                            <a href="#header" onclick="backToTop()">
+                                Voltar ao topo
+                            </a>
+                            <br><br>
+                            <a>
+                                Sobre nós
+                            </a>
+                            <br><br>
+                            <a>
+                                Produto
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </footer>
 
+            <script src="js/index.js"></script>
     </body>
 
 </html>
