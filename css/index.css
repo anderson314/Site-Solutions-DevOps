@@ -350,12 +350,13 @@ footer{
     width: 100vw;
 }
 
+
 .caixaInternaFooter{
     padding-top: 100px;
 
     height:400px;
     
-    background-color: crimson;
+    
 
     display: flex;
     flex-direction: row;
@@ -368,7 +369,7 @@ footer{
 /*"Contatos"*/
 
 .contatos{
-    background-color: darkcyan;
+    
 
     display: flex;
     flex-direction: column;
@@ -410,8 +411,15 @@ footer{
     margin-top: 80px;
 }
 
+.linkTwitter{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .navegacaoFooter{
-    background-color: cyan;
+    
+    text-align: center;
+    font-size: 20px;
 
     display: flex;
     flex-direction: column;
@@ -420,6 +428,15 @@ footer{
 
     width: 500px;
     height: 350px;
+}
+
+.navegacaoFooter a{
+    color: white;
+    text-decoration: none; 
+}
+
+.navegacaoFooter a:hover{
+    text-decoration: underline;
 }
 
 /*Termos de Uso e Política de Privacidade*/
