@@ -6,6 +6,18 @@
 	margin:0 auto;
 }
 
+/*Fonte do Header*/
+@font-face{
+    font-family: 'VarelaRound-Regular';
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+/*Fonte dos textos corridos*/
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
 body
 {
     font-family:sans-serif;
@@ -23,13 +35,22 @@ header{
 
 .container{
     width: 100%;
-    
-    font-family: Trebuchet MS;
 }
 
 .container nav{
     margin-right: 15%;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: 'VarelaRound-Regular';
+}
+
+#linkHeaderProduto:hover{
+    position: relative;
+    top:-2px;
+}
+
+#linkHeaderSobreNos:hover{
+    position: relative;
+    top:-2px;
 }
 
  
@@ -40,10 +61,6 @@ header{
     margin-top: 1%;
     margin-left: 15%; 
 }
-
-
-
-
 
 
 
@@ -87,11 +104,12 @@ nav a.btn_destaque{
 /* Sobre a empresa */
 .titulosobre{
     font-size: 2em;
+    font-family: 'VarelaRound-Regular';
 }
 
 .conteudosobre{
+    max-width: 700px;
     float: left;
-    max-width: 50%;
     margin-left: 5%;
     font-size: 1.09em;
 }
@@ -100,7 +118,9 @@ nav a.btn_destaque{
     text-align: justify;
     float: right;
     margin-top: 3%;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto-Regular';
+    line-height: 1.4;
+    font-size: 1em;
 }
 
 .sobreaempresa1{
@@ -143,6 +163,7 @@ nav a.btn_destaque{
     justify-content: center;
     align-items: center;
 
+    font-family: 'Roboto-Regular';
     line-height: 1.75; 
 
     width: auto;
@@ -156,15 +177,15 @@ nav a.btn_destaque{
     margin-bottom: 40px;
     text-align: justify;
     max-width: 250px;
-    font-size: 30pt;
+    font-size: 2.5em;
 
  }
 
  .conteudoMissao{
     height: 100%;
     text-align: justify;
-    max-width: 400px;
-    font-size: 1.2em;
+    max-width: 350px;
+    font-size: 1.15em;
  } 
  /* FIM MISSÃO */
 
@@ -177,6 +198,7 @@ nav a.btn_destaque{
     justify-content: center;
     align-items: center;
 
+    font-family: 'Roboto-Regular';
 
     text-align: center;
     width: auto;
@@ -189,9 +211,7 @@ nav a.btn_destaque{
     margin-bottom: 50px;
     text-align: justify;
     max-width: 250px;
-    font-size: 30pt;
-
-
+    font-size: 2.5em;
  }
 
  .conteudoStar{
@@ -199,8 +219,8 @@ nav a.btn_destaque{
     text-align: justify;
     line-height: 1.75;
     
-    max-width: 400px;
-    font-size: 1.2em;
+    max-width: 350px;
+    font-size: 1.15em;
  }
 /* FIM VALORES */
 
@@ -213,6 +233,8 @@ nav a.btn_destaque{
     justify-content: center;
     align-items: center;
 
+    font-family: 'Roboto-Regular';
+
     width: auto;
     height: 800px;
 }
@@ -220,15 +242,15 @@ nav a.btn_destaque{
  .tituloSearch{
     text-align: justify;
     max-width: 250px;
-    font-size: 30pt;
+    font-size: 2.5em;
     margin-bottom: 50px;
  }
 
  .conteudoSearch{
     text-align: justify;
     line-height: 1.75;
-    max-width: 400px;
-    font-size: 1.2em;
+    max-width: 350px;
+    font-size: 1.15em;
     height: 100%;
  }
  /* FIM VISÃO */
@@ -246,11 +268,14 @@ nav a.btn_destaque{
 .equipe{
     margin-bottom: 25px;
     color: white;
-    font-size: 30pt;
+    font-family: 'VarelaRound-Regular';
+    font-size: 2.5em;
+
 }
 .nomes{
     color: white;
-    font-size: 15pt;
+    font-family: 'Roboto-Regular';
+    font-size: 1.2em;
 }
 
 
@@ -273,7 +298,8 @@ nav a.btn_destaque{
 .textonafoto{
     position: absolute;
     color:white;
-    font-size: 35pt;
+    font-size: 3em;
+    font-family: 'VarelaRound-Regular';
 
     text-align: center;
     width: 100vw;
@@ -302,8 +328,8 @@ nav a.btn_destaque{
 /*Texto na barra amarela*/
 .textoBarraAmarela{
     margin-left: 25px;
-    font-size: 15pt;
-    font-family: arial;
+    font-size: 1.2em;
+    font-family: 'Roboto-Regular';
     line-height: 1.25;
 }
 
@@ -325,7 +351,7 @@ nav a.btn_destaque{
 
 .textoDogWalker{
     text-align: center;
-    font-size: 18pt;
+    font-size: 1.3em;
     font-family: arial;
 
     margin-bottom: 70px;
@@ -337,10 +363,10 @@ nav a.btn_destaque{
 
 /*Foto e texto Android*/
 .textoAndroid{
-    
     text-align: center;
-    font-size: 30pt;
-    font-family: arial;
+    font-size: 1.7em;
+    font-family: 'Roboto-Regular';
+    margin-bottom: 25px;
 }
 
 footer{
@@ -384,7 +410,7 @@ footer{
 
 .textoContato{
     color: white;
-    font-size: 20pt;
+    font-size: 1.8em;
 }
 
 /*Linha do meio FOOTER*/
@@ -398,7 +424,7 @@ footer{
 /*Coloquei o Endereço de E-mail em uma DIV separada para centralizar-lo*/
 .centralizarEmail{
     color: white;
-    font-size: 20pt;
+    font-size: 1.5em;
 }
 
 /*Barra azul*/
@@ -416,10 +442,14 @@ footer{
     margin-right: 50px;
 }
 
+.imagemLogoFooter{
+    margin-bottom: 15px;
+}
+
 .navegacaoFooter{
     
     text-align: center;
-    font-size: 20px;
+    font-size: 1.4em;
 
     display: flex;
     flex-direction: column;
@@ -439,15 +469,6 @@ footer{
     text-decoration: underline;
 }
 
-/*Termos de Uso e Política de Privacidade*/
-.TermosPolitica{
-    
-    top: 3390px;
-    right: 120px;
-    color: white;
-    font-size: 20pt;
-    text-decoration: none;
-}
 
 
 
