@@ -6,22 +6,20 @@
 	margin:0 auto;
 }
 
+/*Importação da fonte Varela Round*/
 /*Fonte do Header*/
 @font-face{
     font-family: 'VarelaRound-Regular';
     src: url(../fonts/VarelaRound-Regular.ttf);
 }
 
+/*Importação da fonte Roboto*/
 /*Fonte dos textos corridos*/
 @font-face{
     font-family: 'Roboto-Regular';
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
-body
-{
-    font-family:sans-serif;
-}
 
 header{
     width: 100vw;
@@ -70,7 +68,6 @@ nav{
     font-size: 12px;
     float: right;
     margin-top: 50px;
-    font-family: monospace;
 }
 
 nav a{
@@ -98,7 +95,7 @@ nav a.btn_destaque{
 /* Logo do main*/
 .logoe_nome_main{
     float: left;
-    margin-left: 7%;
+    margin-left: 70px;
 }
 
 /* Sobre a empresa */
@@ -110,14 +107,14 @@ nav a.btn_destaque{
 .conteudosobre{
     max-width: 700px;
     float: left;
-    margin-left: 5%;
+    margin-left: 30px;
     font-size: 1.09em;
 }
 
 .textosobreempresa{
     text-align: justify;
     float: right;
-    margin-top: 3%;
+    margin-top: 10px;
     font-family: 'Roboto-Regular';
     line-height: 1.4;
     font-size: 1em;
@@ -128,17 +125,14 @@ nav a.btn_destaque{
     
     margin-top: 5%;
     
+    /*Estas propriedades fazem com que a div se fique centralizada*/
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Os elementos desta div ficarão alinhados em linha,
+    ou seja, um ao lado do outro, por isso a imagem está ao lado do texto.*/
     justify-content: center;
     align-items: center;
 }
 
-.sobreaempresa2{
-    
-    width: 95%;
-    
-}
 
 
 /* Aqui começam as imagens MISSÃO, VALORES E VISÃO */
@@ -147,9 +141,7 @@ nav a.btn_destaque{
     height: 800px;
     width: 100vw;
 
-    margin-top: 5%;
-
-    font-family: Arial;
+    margin-top: 90px;
 
     display: flex;
     flex-direction: row;
@@ -158,8 +150,12 @@ nav a.btn_destaque{
 }
 
 .missao{
+
+    /*Estas propriedades fazem com que a div se fique centralizada*/
     display: flex;
-    flex-direction: column;
+    flex-direction: column;/*Neste caso os elementos dentro da div missão
+    ficarão alinhados em coluna, ou seja, um em baixo do outro por isso o
+    titulo está abaixo da imagem e o texto está abaixo do titulo*/
     justify-content: center;
     align-items: center;
 
@@ -296,6 +292,8 @@ nav a.btn_destaque{
 
 /* "PET FELIZ" */
 .textonafoto{
+    /*a posição está absoluta para que o texto 
+    fique em cima da imagem*/
     position: absolute;
     color:white;
     font-size: 3em;
@@ -376,13 +374,12 @@ footer{
     width: 100vw;
 }
 
-
+/*As caixas internas que aparecem são para que
+todo o conteúdo se alinhe da págima, sem elas não daria
+certo.*/
 .caixaInternaFooter{
     padding-top: 100px;
-
     height:400px;
-    
-    
 
     display: flex;
     flex-direction: row;
@@ -395,8 +392,7 @@ footer{
 /*"Contatos"*/
 
 .contatos{
-    
-
+    font-family: 'Roboto-Regular';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -447,7 +443,7 @@ footer{
 }
 
 .navegacaoFooter{
-    
+    font-family: 'Roboto-Regular';
     text-align: center;
     font-size: 1.4em;
 
@@ -465,6 +461,7 @@ footer{
     text-decoration: none; 
 }
 
+/*Ao passar o mouse em cima do link, aparecerá uma linha debaixo do texto*/
 .navegacaoFooter a:hover{
     text-decoration: underline;
 }
