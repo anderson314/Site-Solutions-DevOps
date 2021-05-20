@@ -100,7 +100,7 @@ nav a.btn_destaque{
 
 /* Sobre a empresa */
 .titulosobre{
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'VarelaRound-Regular';
 }
 
@@ -108,7 +108,7 @@ nav a.btn_destaque{
     max-width: 700px;
     float: left;
     margin-left: 30px;
-    font-size: 1.09em;
+    font-size: 1em;
 }
 
 .textosobreempresa{
@@ -138,16 +138,18 @@ nav a.btn_destaque{
 /* Aqui começam as imagens MISSÃO, VALORES E VISÃO */
 
 .valorMissaoVisao{
-    height: 800px;
+    height: 400px;
     width: 100vw;
 
-    margin-top: 90px;
+    margin-top: 350px;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .missao{
 
@@ -173,7 +175,7 @@ nav a.btn_destaque{
     margin-bottom: 40px;
     text-align: justify;
     max-width: 250px;
-    font-size: 2.5em;
+    font-size: 2em;
 
  }
 
@@ -181,7 +183,7 @@ nav a.btn_destaque{
     height: 100%;
     text-align: justify;
     max-width: 350px;
-    font-size: 1.15em;
+    font-size: 1em;
  } 
  /* FIM MISSÃO */
 
@@ -207,7 +209,7 @@ nav a.btn_destaque{
     margin-bottom: 50px;
     text-align: justify;
     max-width: 250px;
-    font-size: 2.5em;
+    font-size: 2em;
  }
 
  .conteudoStar{
@@ -216,7 +218,7 @@ nav a.btn_destaque{
     line-height: 1.75;
     
     max-width: 350px;
-    font-size: 1.15em;
+    font-size: 1em;
  }
 /* FIM VALORES */
 
@@ -238,7 +240,7 @@ nav a.btn_destaque{
  .tituloSearch{
     text-align: justify;
     max-width: 250px;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 50px;
  }
 
@@ -246,7 +248,7 @@ nav a.btn_destaque{
     text-align: justify;
     line-height: 1.75;
     max-width: 350px;
-    font-size: 1.15em;
+    font-size: 1em;
     height: 100%;
  }
  /* FIM VISÃO */
